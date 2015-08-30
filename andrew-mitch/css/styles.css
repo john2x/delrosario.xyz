@@ -5,6 +5,11 @@ body {
     font-family: Noto Serif;
     font-style: italic;
     color: #643499;
+    background: -webkit-linear-gradient(top, #DDC2D2, #DDC2D2 40%, #BFD298);
+}
+.container {
+    margin: 0;
+    padding: 0;
 }
 header {
     margin-top: 24px;
