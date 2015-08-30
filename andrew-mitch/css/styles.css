@@ -46,7 +46,7 @@ article {
     margin-right: auto;
     max-width: 280px;
 }
-section p, section h1 {
+section p, section h1, section h2, section h3 {
     text-align: center;
 }
 
