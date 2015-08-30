@@ -39,6 +39,7 @@ section p, section h1 {
 
 a {
     text-decoration: underline;
+    color: #643499;
 }
 a:visited {
     color: #643499;
