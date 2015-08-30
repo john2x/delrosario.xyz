@@ -4,6 +4,7 @@ body {
     margin: 0;
     font-family: Noto Serif;
     font-style: italic;
+    color: #643499;
 }
 header {
     margin-top: 24px;
@@ -14,21 +15,59 @@ header img#logo {
     margin-right: auto;
 }
 
+nav {
+    margin-bottom: 36px;
+}
+nav ul {
+    padding: 0;
+    text-align: center;
+}
+nav li {
+    display: inline;
+    padding-left: 10px;
+}
 
-section {
+article {
     display: block;
     margin-left: auto;
     margin-right: auto;
     max-width: 280px;
-    color: #643499;
 }
 section p {
     text-align: center;
 }
 
 a {
-    color: #643499;
     text-decoration: underline;
+}
+a:visited {
+    color: #643499;
+}
+a:hover {
+    background-color: #E3CBFF;
+}
+
+.left ul, .right ul {
+    list-style: none;
+}
+.left {
+    float: left;
+    text-align: right;
+    width: 49%;
+    border-right: 1px solid #643499;
+}
+.left ul {
+    margin-right: 10px;
+}
+.right {
+    float: right;
+    width: 50%;
+}
+.left ul {
+    margin-left: 10px;
+}
+.right ul {
+    padding-left: 0;
 }
 
 footer {
