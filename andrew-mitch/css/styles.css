@@ -33,7 +33,7 @@ article {
     margin-right: auto;
     max-width: 280px;
 }
-section p {
+section p, section h1 {
     text-align: center;
 }
 
