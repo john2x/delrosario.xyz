@@ -61,27 +61,17 @@ a:hover {
     background-color: #E3CBFF;
 }
 
-.left ul, .right ul {
-    list-style: none;
+table.split {
+    margin-left: auto;
+    margin-right: auto;
+    border-spacing: 0;
 }
-.left {
-    float: left;
+table.split tr :first-child {
     text-align: right;
-    width: 49%;
     border-right: 1px solid #643499;
 }
-.left ul {
-    margin-right: 10px;
-}
-.right {
-    float: right;
-    width: 50%;
-}
-.left ul {
-    margin-left: 10px;
-}
-.right ul {
-    padding-left: 0;
+table.split tr td {
+    padding: 2px 10px;
 }
 
 footer {
