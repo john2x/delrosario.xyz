@@ -67,6 +67,7 @@ table.split {
     margin-left: auto;
     margin-right: auto;
     border-spacing: 0;
+    font-style: italic;
 }
 table.split tr :first-child {
     text-align: right;
