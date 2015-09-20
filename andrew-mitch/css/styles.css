@@ -1,9 +1,10 @@
-@import url(https://fonts.googleapis.com/css?family=Noto+Serif:400,400italic);
+@import url(https://fonts.googleapis.com/css?family=Arapey:400,400italic);
 
 body {
     margin: 0;
-    font-family: Noto Serif;
+    font-family: Arapey, serif;
     font-style: italic;
+    size: 14px;
     color: #643499;
     /*background: -webkit-linear-gradient(top, #DDC2D2, #DDC2D2 40%, #BFD298);*/
 background-color:#F5ECF1;
@@ -52,6 +53,7 @@ section p, section h1, section h2, section h3 {
 
 a {
     text-decoration: underline;
+    font-weight: bold;
     color: #643499;
 }
 a:visited {
